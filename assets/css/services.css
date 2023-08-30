@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.full_list{
+    height: 300px;
+    width: 800px;
+    background-color: lavender;
+    color: white;
+}
+
+.sub_list{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    background-color: rgb(87, 42, 165);
+    text-shadow: 4px 0 black;
+    letter-spacing: 5px;
+}
+
+.sub2_list{
+    background-color: rgba(208, 43, 226, 0.296);
+    text-align: center;
+    height: 250px;
+    letter-spacing: 5px;
+    line-height: 2;
+    text-shadow: 2px,0,black;
+}

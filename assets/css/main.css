@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70px;
+    background-color: lavender;
+}
+
+.inner_header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+h1{
+    color:blueviolet;
+    font-weight: 900;
+    background-color: lavender;
+    border-top: 3px solid blueviolet;
+}
+
+nav{
+    color: blueviolet;
+    font-weight: 900;
+    background-color: lavender;
+    border-top: 1px solid black;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+a:hover{
+    background-color: rgba(75, 17, 130);
+}

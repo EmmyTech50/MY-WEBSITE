@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.input, select{
+    background-color: lavender;
+    color: #000;
+    width: 400px;
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    border-top: 3px solid blueviolet;
+    box-sizing: border-box;
+}
+
+
+.submit{
+    background-color: blueviolet;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    border-top: 3px solid lavender;
+    border-radius: 5px;
+}
+
+
